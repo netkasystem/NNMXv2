@@ -1,5 +1,5 @@
 ## NETKAVIEW NETWORK MANAGER (NNMX) Release Note version 2.0.0
-
+![This is a alt text.](/nnmx.png "This is a sample image.")
 
 
 ### NETKAVIEW NETWORK MANAGER
@@ -20,6 +20,4 @@ NetkaView Network Manager X (NNMX) เป็นระบบบริหารจ
 * 	ทำรายงานค่า availability ของอุปกรณ์และ link
 * 	ดูการเชื่อมต่อของอุปกรณ์ผ่าน network diagram
 
-## Images
 
-![This is a alt text.](/nnmx.png "This is a sample image.")
