@@ -21,3 +21,8 @@ NetkaView Network Manager X (NNMX) เป็นระบบบริหารจ
 * 	ดูการเชื่อมต่อของอุปกรณ์ผ่าน network diagram
 
 
+### Update 
+* [30-09-2022] 
+  * update docker-compose.yml   change  nnmx_backend,nnmx.web to v0.0.2
+  * update mariadb/schema/nksnms_db change table config_alert_module,config_alert_module,email_template_variable,template
+
