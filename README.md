@@ -1,4 +1,35 @@
-## NETKAVIEW NETWORK MANAGER (NNMX) Release Note version 2.0.0
+## NETKAVIEW NETWORK MANAGER (NNMX) Release Note version 2.1.0
+![This is a alt text.](/nnmx.png "This is a sample image.")
+
+
+### NETKAVIEW NETWORK MANAGER
+Enhancement ใน version 2.1.0
+* เพิ่มการกำหนดสิทธิ์ใน Network Device Group (NDG) แทน Level โดย 1 node สามารถอยู่ได้มากกว่า 1 NDG และสามารถกำหนดให้ 1 user ดูแลอุปกรณ์ได้หลายๆ NDG
+* เพิ่มการแจ้งเตือนตาม NDG ที่กำหนดให้ user
+ 
+
+
+### Bug fixes
+* 	DEF187 [Staff Announcement] Announcement ควรมีให้เลือกแจ้งเตือนตามกลุ่มของ Zone, RSC, pop ได้
+* 	DEF241 Analytics Report Edit data Module เลือกไม่ได้
+* 	DEF242 Program ไม่ทำงานเมื่อมีจำนวน Node ครบ จำนวน license
+* 	DEF243 หน้า Edit หน้า node discovery ไม่แสดงข้อมูล ping setting มาให้ปรับแก้
+* 	DEF244 [Node Discovery] Export pdf แล้วขนาดหน้าจอเล็ก
+* 	แก้ไข search and draw svg not found image
+* 	แก้ model ย้ายจากตาราง module เป็น Config Alert Module
+* 	แก้ node_status list license ผิดไม่ตรงกับ License ที่ใส่
+* 	แก้ node_status เก็บข้อมูลไม่ตรงกับตาราง node
+* 	แก้ จำนวนของ Interface ใน Elastic กับหน้า Web ไม่เท่ากัน ซึ่งหน้า Web จะมีจำนวน Interface ไม่เท่ากับใน ES
+* 	แก้ node_status ไม่สามารถเก็บข้อมูลเก็บลงใน database ได้
+* 	แก้ application sw_run, sw_install run แล้ว detect license 10
+* 	แก้ get_process_unix handshake failed
+* 	แก้ คลิกที่อุปกรณ์ในหน้า Network diagram เมื่อไปกดหน้าอื่นระบบจะแสดงข้อมูลของอุปกรณ์อยู่ด้านล่างของ Page อื่นๆ 
+
+
+
+
+
+## NETKAVIEW NETWORK MANAGER (NNMX) Release Note version 2.0.0-2.0.1
 ![This is a alt text.](/nnmx.png "This is a sample image.")
 
 
@@ -27,4 +58,7 @@ NetkaView Network Manager X (NNMX) เป็นระบบบริหารจ
     * Fixed Issue discovery & node_status,interface_status 
     * Modify Config Alert template Module
   * update mariadb/schema/nksnms_db change table config_alert_module,config_alert_module,email_template_variable,template
+ * [19-12-2022] 
+  * update docker-compose.yml   change  nnmx_backend,nnmx.web to v2.1.0 
+    * update new schema mysql
 
