@@ -26,7 +26,7 @@ Enhancement ใน version 2.1.0
 * 	แก้ คลิกที่อุปกรณ์ในหน้า Network diagram เมื่อไปกดหน้าอื่นระบบจะแสดงข้อมูลของอุปกรณ์อยู่ด้านล่างของ Page อื่นๆ 
 
 
-
+==========
 
 
 ## NETKAVIEW NETWORK MANAGER (NNMX) Release Note version 2.0.0-2.0.1
