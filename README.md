@@ -61,4 +61,7 @@ NetkaView Network Manager X (NNMX) เป็นระบบบริหารจ
  * [19-12-2022] 
   * update docker-compose.yml   change  nnmx_backend,nnmx.web to v2.1.0 
     * update new schema mysql
+ * [10-01-2023] 
+  * Fixed issue saas_customer expire
+
 
