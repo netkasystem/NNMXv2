@@ -25,7 +25,7 @@
 - Data Retention สำหรับลบข้อมูล Elasticsearch(Default 90 วัน)
 
 
-##### <u>ตัวอย่าง config comare ของอุปกรณ์ DCN </u>
+##### <u>ตัวอย่าง config compare ของอุปกรณ์ DCN </u>
 <img width="1288" alt="compare" src="https://user-images.githubusercontent.com/23395399/225845168-0aae93ec-249a-44bb-9833-f6b0f2ed92e1.png">
 
 
