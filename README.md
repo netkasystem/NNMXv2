@@ -3,7 +3,7 @@
 
 
 ---
-###### *Release date: 24-Mar-2023*
+###### *Release date: 23-Mar-2023*
 ---
 ### New Feature ใน version 2.2.0 [Tool Config Management]
 - Configuration Change
