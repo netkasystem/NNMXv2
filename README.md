@@ -1,4 +1,39 @@
 
+# Release notes for NetkaView Network Manager X 2.3.0 ![nnmx](https://user-images.githubusercontent.com/23395399/225836308-42900190-fd79-4332-b194-bce3349b8a9e.png)
+
+
+---
+###### *Release date: 25-May-2023*
+---
+### New Feature ใน version 2.3.0 [Customer Module]
+- Customer Report
+- Customer Portal
+
+
+
+
+
+---
+##### <u>Customer Report </u>
+<img width="1288" alt="compare" src="https://github.com/netkasystem/NNMXv2/assets/23395399/71cb91bf-5ab2-484d-8bba-b59d56968d7f">
+  
+
+
+
+##### <u>Customer Portal </u>
+<img width="1332" alt="Tool_show" src="https://github.com/netkasystem/NNMXv2/assets/23395399/04165198-9a79-4044-9319-e3b2ea573f15">
+
+### Bug fixes
+- •	Filter nodes other than Switch/Router from the Tools menu
+
+
+
+
+
+
+
+
+
 # Release notes for NetkaView Network Manager X 2.2.0 ![nnmx](https://user-images.githubusercontent.com/23395399/225836308-42900190-fd79-4332-b194-bce3349b8a9e.png)
 
 
@@ -45,3 +80,5 @@
 - Import Node แล้ว POP เป็น Undefined ทั้งที่มีข้อมูลใน POP
 - Discovery History บางครั้งแสดง Discovery result ไม่ถูกต้อง
 - สามารถ Discovery ได้แม้ว่าจำนวน node เท่ากับจำนวน license แต่ไม่มีการบันทึกข้อมูลเข้าระบบ
+
+
