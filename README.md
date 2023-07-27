@@ -1,4 +1,76 @@
 
+# Release notes for NetkaView Network Manager X 2.4.0  ![01_newlogo_image001](https://github.com/netkasystem/NNMXv2/assets/23395399/635c8b11-07a2-4af8-ac2b-f1a12455490d)
+
+
+---
+###### *Release date: 10-July-2023*
+---
+### New Feature ใน version 2.4.0 [Desktop Management Module]
+(Desktop Management) is a system used to manage computers via the Internet, with the following capabilities:
+- Can store computer details such as macaddress os version etc.
+- Ability to install and uninstall software into computer
+- Can store details of the software installed on the machine.
+- can order capture computer screen.
+- Able to send commands to operate the computer
+- able to store data on and off the computer
+- Able to store computer status data (Up/Down)
+
+
+### The work of Desktop Management is divided into two parts as follows.
+
+### 1.NNMX Agent
+ is used to collect data from the computer and send it to the NNMX Webserver.
+### 2.NNMX WebServer
+ uses DNS to talk to the NNMX Agent.
+
+
+---
+## 1.NNMX Agent
+NNMX Agent is a program used to install on the computer and use the DNS of the web to talk to each other to synch data. In the installation process can be grouped by zone, region pop
+ <p>The installer and user manual can be downloaded from the web page as shown.</p>
+
+![image](https://github.com/netkasystem/NNMXv2/assets/23395399/d53af381-aedd-423c-84d4-aef0f0c4657b)
+
+- Example screen when pressing install
+![image](https://github.com/netkasystem/NNMXv2/assets/23395399/51ab10dd-fc78-4099-8c48-639538515e26)
+
+---
+## 2.NNMX WebServer
+NNMX WebServer is a web page that will select the computer to perform the following actions.
+- Install
+- Uninstall
+- Capture the screen
+- Send Command
+<p> to order the destination computer and generate reports to give users an overview of all workstations.</p>
+
+
+
+
+#### 2.1 Desktop Management Tool
+ 
+ ![image](https://github.com/netkasystem/NNMXv2/assets/23395399/eb04529e-172f-4b9d-a410-d4400b468602)
+ 
+ 
+ ![image](https://github.com/netkasystem/NNMXv2/assets/23395399/ef0c104e-6f1d-4fa5-ad4f-1467eab04395)
+ 
+ 
+#### 2.2 Desktop Management LOG
+ 
+ ![image](https://github.com/netkasystem/NNMXv2/assets/23395399/393c104d-7e41-4601-8792-7c9f3d08dd50)
+ 
+ 
+#### 2.3 Desktop Management Screen Capture
+ - You can also click the magnifying glass to view the image.</p>
+
+  ![image](https://github.com/netkasystem/NNMXv2/assets/23395399/0f61cc9c-0501-4b7f-9501-352a16637dab)
+  
+  ![image](https://github.com/netkasystem/NNMXv2/assets/23395399/4ba3ea65-17c3-41dd-9f8f-f1d10d795193)
+ 
+ 
+
+
+---
+---
 
 # Release notes for NetkaView Network Manager X 2.3.0 ![nnmx](https://user-images.githubusercontent.com/23395399/225836308-42900190-fd79-4332-b194-bce3349b8a9e.png)
 
