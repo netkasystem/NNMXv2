@@ -1,4 +1,52 @@
 
+# Release notes for NetkaView Network Manager X 2.5.0 ![01_newlogo_image001](https://github.com/netkasystem/NNMXv2/assets/23395399/635c8b11-07a2-4af8-ac2b-f1a12455490d)
+---
+###### *Release date: 29-Sep-2023*
+---
+### New Feature in version 2.5.0 [IPSLA Module]
+IP SLA Network Analysis
+- [x]	Assists in monitoring and verifying network performance by automatic discovery of devices that transmit IP SLA and Real-time Performance Monitoring (RPM) data 
+- [x]	Able to monitor response times, packet loss, latency and packet jitters 
+- [x]	Especially useful in leveraging the quality of VoIP service by monitoring specific VoIP Performance statistics 
+
+---
+
+### IPSLA SETUP
+*  IP SLA threshold   Range  is a menu that holds the Range value for use in setting the color displayed in other reports.
+![image](https://github.com/netkasystem/NNMXv2/assets/23395399/5c613613-71c4-45c2-9917-95a30544158d)
+
+•	IP SLA Operation Threshold is a menu used to configure the threshold values of the source and destination devices and the type of IPSLA as the starting data for further checking in various reports. that the origin and destination values are normal or abnormal?
+
+![image](https://github.com/netkasystem/NNMXv2/assets/23395399/a01fc409-aa65-4705-b3ad-2016b83f585c)
+---
+### IPSLA REPORT
+
+### Example Report
+•	IP SLA Matrix  is an additional report of IPSLA data, selectable by date range in Matrix format, showing colors to indicate whether the values are normal or not according to surveillance. Can be exported as PDF, CSV, Excel.
+![image](https://github.com/netkasystem/NNMXv2/assets/23395399/bcb106b5-fcee-4c6f-887e-dae5ed0bf0f9)
+
+•	IP SLA Latency is an additional report latency(delay) of origin and destination patrons and from the destination to the origin (*The higher the latency, the worse it is)
+
+![image](https://github.com/netkasystem/NNMXv2/assets/23395399/09bc36d2-cdc6-4ee8-8a90-28aaaf46017a)
+
+•	HTTP Statistic is a report used to compare HTTP Statistics data of the source and destination. 
+![image](https://github.com/netkasystem/NNMXv2/assets/23395399/ad59a358-e682-4e01-9619-07b5e5c6b8f0)
+
+•	IP SLA Daily Time Span is a report that shows IPSLA data in the form of a table, such as the month of August having 31 days, it will show 31 fields. You can choose values according to the type of ipsla, such as Response Time, Packet Loss, allowing customers to see the differences in data each day and See the monthly overview more clearly.
+
+![image](https://github.com/netkasystem/NNMXv2/assets/23395399/a47c1693-56d5-4db3-8210-cbed05ae9fac)
+![image](https://github.com/netkasystem/NNMXv2/assets/23395399/31e265bb-fb9c-4f43-bfca-80bc018ab2f9)
+
+
+ 
+
+ 
+
+### Bug fixes
+- Customer Module
+
+
+---
 # Release notes for NetkaView Network Manager X 2.4.0  ![01_newlogo_image001](https://github.com/netkasystem/NNMXv2/assets/23395399/635c8b11-07a2-4af8-ac2b-f1a12455490d)
 
 
