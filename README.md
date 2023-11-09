@@ -1,4 +1,4 @@
-![IPSLA_line](https://github.com/netkasystem/NNMXv2/assets/23395399/18d076f2-8631-4efe-808f-225f34a9315f)
+
 # Release notes for NetkaView Network Manager X 2.5.0 ![01_newlogo_image001](https://github.com/netkasystem/NNMXv2/assets/23395399/635c8b11-07a2-4af8-ac2b-f1a12455490d)
 ---
 ###### *Release date: 29-Sep-2023*
