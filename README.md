@@ -1,4 +1,28 @@
 
+
+# Release notes for NetkaView Network Manager X 2.5.1 ![01_newlogo_image001](https://github.com/netkasystem/NNMXv2/assets/23395399/635c8b11-07a2-4af8-ac2b-f1a12455490d)
+---
+###### *Release date: 27-NOv-2023*
+---
+### Enhancement IP SLA Reachability Report in [IP SLA Module] 
+IP SLA Reachability Report
+- [x]	The enhanced report assesses the usability of each hop ID along the network path from source to destination. It determines if a hop ID can be used for communication and focuses on the reachability value as a metric to measure accessibility and usability. The report presents a graph showcasing minimum, maximum, and average reachability values over a specific timeframe.
+
+
+![image](https://github.com/netkasystem/NNMXv2/assets/23395399/49811192-38e9-421d-b1c8-4ffd3b99cf3a)
+
+
+![image](https://github.com/netkasystem/NNMXv2/assets/23395399/d9a8c319-7fc8-4292-a033-4dc4b27e68ec)
+
+Bug Fixes 
+- [x]	Adjust Design of customer reports [Customer module].
+- [x]	License NNMX-CUST-002 has expired but Customer Report is still displayed.
+- [x]	Desktop Management Tool (Screen Capture does not work, Status shows Not Run).
+- [x]	Desktop Management Tool (can't store information on turning on and off some machines).
+- [x]	Fixed issue Dashboard Can't Full Screen.
+- [x]	Fixed issue Pop-ups are annoying.
+
+---
 # Release notes for NetkaView Network Manager X 2.5.0 ![01_newlogo_image001](https://github.com/netkasystem/NNMXv2/assets/23395399/635c8b11-07a2-4af8-ac2b-f1a12455490d)
 ---
 ###### *Release date: 29-Sep-2023*
