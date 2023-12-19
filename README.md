@@ -1,4 +1,4 @@
-![image](https://github.com/netkasystem/NNMXv2/assets/23395399/7f936766-74fe-4db7-bc13-db96f52706f7)
+
 # Release notes for NetkaView Network Manager X 2.6.0 ![01_newlogo_image001](https://github.com/netkasystem/NNMXv2/assets/23395399/635c8b11-07a2-4af8-ac2b-f1a12455490d)
 ---
 ###### *Release date: 26-Dec-2023*
@@ -7,17 +7,19 @@
 ### New Module in version 2.6.0 [Auto Report Module][ NNMX-CUST-XXX]
 This module is designed to automatically export reports. You can schedule reports to be generated at specified intervals, such as weekly or monthly, or you can trigger them manually. Additionally, you have the option to send the generated reports as email attachments to specified recipients.
 - [x]	Modify Customer management menu
-   https://github.com/netkasystem/NNMXv2/issues/25#issue-2047781041
+      
+   ![image](https://github.com/netkasystem/NNMXv2/assets/23395399/a22fce49-1fe1-4956-a438-4f943132683f)
+
 - [x]	Auto report Setup is used to configure reports for various cycles, such as weekly and monthly. A back-end system will operate to send reports to users based on the email addresses they have set.
-      ### Support 4 Report
+     #### -Support 4 Report
      	![image](https://github.com/netkasystem/NNMXv2/assets/23395399/b693b00a-899e-4a74-baea-3615f7239bd7)
      	![image](https://github.com/netkasystem/NNMXv2/assets/23395399/403dd90a-7cef-4ce4-a1f6-0854b50de3e9)
 - [x]	Auto Report Run Now is used to generate reports instantly. Users can command the report to be generated immediately and choose whether to send an email. If the option to not send an email is selected, users can download the file from the “Auto Report Run Now log.”
-      ### Auto Report Run Now
+     #### -Auto Report Run Now
      	![image](https://github.com/netkasystem/NNMXv2/assets/23395399/722f28f6-de6d-4247-87a6-03b5938b8799)
-     	### Auto Report Run Now Log
+     #### -Auto Report Run Now Log
      	![image](https://github.com/netkasystem/NNMXv2/assets/23395399/95cb29b7-04a7-4970-85d7-d0b6739461b3)
-     	### example Attachment
+     #### -example Attachment
      	![image](https://github.com/netkasystem/NNMXv2/assets/23395399/495e8833-ee4c-4496-8aa0-8873bf92ce28)
 
 ### Enhancement IP SLA [ IP SLA Module] 
@@ -47,7 +49,7 @@ Bug Fixes
 ![image](https://github.com/netkasystem/NNMXv2/assets/23395399/89fbcb1c-75f8-4fa9-9b5d-4e07a4509c82)
 
 ### Database Script Change
-![image](https://github.com/netkasystem/NNMXv2/assets/23395399/48c882b4-61f5-4081-80f9-f0f4ec6b69e1)
+![image](https://github.com/netkasystem/NNMXv2/assets/23395399/7f936766-74fe-4db7-bc13-db96f52706f7)
 
 ### set variable connection to Auto Report API
 ![image](https://github.com/netkasystem/NNMXv2/assets/23395399/15d48351-4658-42d0-a75b-a1a298d6b8a3)
