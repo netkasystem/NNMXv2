@@ -1,1 +1,0 @@
-﻿delete from menu where  menu_name ='Level 0';
