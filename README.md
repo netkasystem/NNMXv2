@@ -12,14 +12,22 @@ This module is designed to automatically export reports. You can schedule report
 
 - [x]	Auto report Setup is used to configure reports for various cycles, such as weekly and monthly. A back-end system will operate to send reports to users based on the email addresses they have set.
      #### -Support 4 Report
+
      	![image](https://github.com/netkasystem/NNMXv2/assets/23395399/b693b00a-899e-4a74-baea-3615f7239bd7)
+     	
      	![image](https://github.com/netkasystem/NNMXv2/assets/23395399/403dd90a-7cef-4ce4-a1f6-0854b50de3e9)
+     	
 - [x]	Auto Report Run Now is used to generate reports instantly. Users can command the report to be generated immediately and choose whether to send an email. If the option to not send an email is selected, users can download the file from the “Auto Report Run Now log.”
      #### -Auto Report Run Now
+
      	![image](https://github.com/netkasystem/NNMXv2/assets/23395399/722f28f6-de6d-4247-87a6-03b5938b8799)
+     	
      #### -Auto Report Run Now Log
+
      	![image](https://github.com/netkasystem/NNMXv2/assets/23395399/95cb29b7-04a7-4970-85d7-d0b6739461b3)
+     	
      #### -example Attachment
+
      	![image](https://github.com/netkasystem/NNMXv2/assets/23395399/495e8833-ee4c-4496-8aa0-8873bf92ce28)
 
 ### Enhancement IP SLA [ IP SLA Module] 
@@ -55,77 +63,8 @@ Bug Fixes
 ![image](https://github.com/netkasystem/NNMXv2/assets/23395399/15d48351-4658-42d0-a75b-a1a298d6b8a3)
 
 
----
-# Release notes for NetkaView Network Manager X 2.5.0 ![01_newlogo_image001](https://github.com/netkasystem/NNMXv2/assets/23395399/635c8b11-07a2-4af8-ac2b-f1a12455490d)
----
-###### *Release date: 29-Sep-2023*
----
-### New Feature in version 2.5.0 [IPSLA Module]
-IP SLA Network Analysis
-- [x]	Assists in monitoring and verifying network performance by automatic discovery of devices that transmit IP SLA and Real-time Performance Monitoring (RPM) data 
-- [x]	Able to monitor response times, packet loss, latency and packet jitters 
-- [x]	Especially useful in leveraging the quality of VoIP service by monitoring specific VoIP Performance statistics 
-
----
-
-### IPSLA SETUP
-*  IP SLA threshold   Range  is a menu that holds the Range value for use in setting the color displayed in other reports.
-![image](https://github.com/netkasystem/NNMXv2/assets/23395399/5c613613-71c4-45c2-9917-95a30544158d)
-
-•	IP SLA Operation Threshold is a menu used to configure the threshold values of the source and destination devices and the type of IPSLA as the starting data for further checking in various reports. that the origin and destination values are normal or abnormal?
-
-![image](https://github.com/netkasystem/NNMXv2/assets/23395399/a01fc409-aa65-4705-b3ad-2016b83f585c)
----
-### IPSLA REPORT
-
-### Example Report
-•	IP SLA Matrix  is an additional report of IPSLA data, selectable by date range in Matrix format, showing colors to indicate whether the values are normal or not according to surveillance. Can be exported as PDF, CSV, Excel.
-![image](https://github.com/netkasystem/NNMXv2/assets/23395399/bcb106b5-fcee-4c6f-887e-dae5ed0bf0f9)
-
-•	IP SLA Latency is an additional report latency(delay) of origin and destination patrons and from the destination to the origin (*The higher the latency, the worse it is)
-
-![image](https://github.com/netkasystem/NNMXv2/assets/23395399/09bc36d2-cdc6-4ee8-8a90-28aaaf46017a)
-
-•	HTTP Statistic is a report used to compare HTTP Statistics data of the source and destination. 
-![image](https://github.com/netkasystem/NNMXv2/assets/23395399/ad59a358-e682-4e01-9619-07b5e5c6b8f0)
-
-•	IP SLA Daily Time Span is a report that shows IPSLA data in the form of a table, such as the month of August having 31 days, it will show 31 fields. You can choose values according to the type of ipsla, such as Response Time, Packet Loss, allowing customers to see the differences in data each day and See the monthly overview more clearly.
-
-![image](https://github.com/netkasystem/NNMXv2/assets/23395399/a47c1693-56d5-4db3-8210-cbed05ae9fac)
-![image](https://github.com/netkasystem/NNMXv2/assets/23395399/31e265bb-fb9c-4f43-bfca-80bc018ab2f9)
 
 
- 
-
- 
-
-### Bug fixes
-- Customer Module
-
-
----
-
-# Release notes for NetkaView Network Manager X 2.5.1 ![01_newlogo_image001](https://github.com/netkasystem/NNMXv2/assets/23395399/635c8b11-07a2-4af8-ac2b-f1a12455490d)
----
-###### *Release date: 27-NOv-2023*
----
-### Enhancement IP SLA Reachability Report in [IP SLA Module] 
-IP SLA Reachability Report
-- [x]	The enhanced report assesses the usability of each hop ID along the network path from source to destination. It determines if a hop ID can be used for communication and focuses on the reachability value as a metric to measure accessibility and usability. The report presents a graph showcasing minimum, maximum, and average reachability values over a specific timeframe.
-
-
-![image](https://github.com/netkasystem/NNMXv2/assets/23395399/49811192-38e9-421d-b1c8-4ffd3b99cf3a)
-
-
-![image](https://github.com/netkasystem/NNMXv2/assets/23395399/d9a8c319-7fc8-4292-a033-4dc4b27e68ec)
-
-Bug Fixes 
-- [x]	Adjust Design of customer reports [Customer module].
-- [x]	License NNMX-CUST-002 has expired but Customer Report is still displayed.
-- [x]	Desktop Management Tool (Screen Capture does not work, Status shows Not Run).
-- [x]	Desktop Management Tool (can't store information on turning on and off some machines).
-- [x]	Fixed issue Dashboard Can't Full Screen.
-- [x]	Fixed issue Pop-ups are annoying.
 
 ---
 # Release notes for NetkaView Network Manager X 2.5.0 ![01_newlogo_image001](https://github.com/netkasystem/NNMXv2/assets/23395399/635c8b11-07a2-4af8-ac2b-f1a12455490d)
