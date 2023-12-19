@@ -1,0 +1,1 @@
+﻿insert into variables values('AutoReportUrl', 'AutoReport', 'http://10.x.x.x', 0, 0, '');
