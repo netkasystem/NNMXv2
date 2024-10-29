@@ -1,3 +1,102 @@
+# Release notes for NetkaView Network Manager X 2.6.1 ![01_newlogo_image001](https://github.com/netkasystem/NNMXv2/assets/23395399/635c8b11-07a2-4af8-ac2b-f1a12455490d)
+---
+###### *Release date: 29-OCT-2024*
+---
+### 1.	Fixed more than 200 defects.
+### 2.	Customer Module 
+is a menu used for managing and monitoring customer usage data, such as traffic volume, system uptime, downtime, and system availability. This information is linked to the nodes and interfaces that customers use in each circuit and location. Additionally, it allows for the creation of automated reports that can be sent to users' emails at specified intervals to track customer usage as needed.
+#### 2.1. Added Customer Group in every customer report, including the Admin page. 
+
+#### 2.2. Developed Virtual Interface and Virtual Combine features:
+- [x]Admin Virtual Combine:
+It is a menu for managing the interface data of link aggregation, which combines multiple network links to enhance customer connectivity. This includes the nodes and interfaces that customers use to connect through the aggregated link interface.
+- [x]Admin Virtual Interface:
+It is a menu for managing the virtual interface data that customers use to connect to the service provider's network, such as VPN networks or cloud infrastructure. This includes the nodes and interfaces that customers use to connect through the virtual interface.
+- [x]Customer Virtual Interface Statistic Report
+- [x]Customer Combined Interface Statistic Report
+- [x]Customer Virtual Interface Availability Report
+- [x]Customer Combined Interface Availability Report 
+
+#### 2.3. Developed additional reports as follows:
+- [x]Customer Preventive Maintenance Report:
+It is a report that displays the values of all interfaces of the node during that specific time, helping users save time when checking network devices during preventive maintenance. It includes the status and traffic of the interfaces.
+- [x]Customer Interface TopN Error Report:
+It is a report that displays the Top N values of interfaces with the highest input/output error or discard packet rates.
+- [x]Customer Interface Statistic Report – Advanced:
+It is a report that includes the input/output traffic rate, error rate, and discard rate for each interface.
+- [x]Customer Interface Traffic Report:
+It is a report that displays the interface traffic utilization (Input/Output) segmented by daily, weekly, monthly, and yearly intervals.
+- [x]Customer Interface Summary Everyday Report:
+It is a daily summary report for the interface that displays traffic utilization (Input/Output) in bps/% along with error and discard rates based on the selected criteria, segmented by daily and monthly. If the month has 30 days, the daily graph will display the data separately for each day from the 1st to the 30th of that month.
+- [x]Customer Interface Summary Report:
+It is a report that summarizes the traffic values, both input and output, of the customer's interface. The graphs display input and output values separately over different time periods. Additionally, it allows for exporting the data in three report formats: 1. Short Report 2. Medium Report 3. Long Report.
+- [x]Heat Chart Report:
+It is a report that displays the input/output values of the customer's interface in the form of a Heat Chart from 00:00 to 23:59 each day, with colors indicating the levels of usage.
+
+
+#### 2.4. Enhanced the Customer web section to show only based on privilege.
+
+### 3.	Auto Report  Module
+Improved the Auto Report’s appearance and added customer group functionality.
+### 4.	IPSLA  Module:
+IPSLA Management is a menu used to monitor the performance of device connections within the network, such as checking whether the endpoint is still responding. It includes metrics for monitoring latency, packet loss, jitter, ICMP, and more.
+#### 4.1 Developed Admin features:
+- [x]IP SLA Profile:
+The IP SLA Profile is a feature that helps define initial settings with multiple different sources and destinations within a single created profile. However, it is not possible to include types that differ from the first type. Additionally, this feature allows for the inclusion of calculation formulas for each profile.
+- [x]Customer IP SLA:
+It is a feature that allows users to pair customers with source destination types and operations to track various IP SLA values associated with the paired customers.
+
+#### 4.2. Developed additional IP SLA reports:
+- [x]IP SLA Everyday Report:
+This report allows viewing IP SLA values on a daily basis for the entire month and monthly summaries based on the selected minimum, average, or maximum values. Additionally, it can display a baseline line in the graph that represents values equal to or greater than the threshold.
+- [x]IP SLA Profile Summary Report:
+The IP SLA Summary Report can calculate values for various Source, Destination, Type, and Operation IDs based on the calculation period defined by the formulas set in the IP SLA Profile page.
+- [x]IP SLA Result by Customer Report:
+It is a report that maps the customer profile with IP SLA values.
+- [x]IP SLA Summary Report:
+It is a report used to display values for Response Time, Reachability, Packet Loss, Latency, Jitter, MOS, and ICPIF over a specified time period.
+- [x]IP SLA Network Analysis Report:
+The Response Time values are compared between two destinations from the same source. The results are displayed as a network diagram, a combined graph for both destinations, and separate graphs for each destination.
+- [x]Customer IP SLA Statistic Report
+
+### 5.	Enhanced the report formatting in the system for improved appearance.
+### 6.	Improved the flexibility and appearance of Dashboard report exports.
+### 7.	Tuned the data collection process to improve performance.
+### 8.	Enhance the PDF report export in the Dashboard and Analytic menus to improve its appearance..
+
+---
+### Bug Fixes
+### Desktop Management Module   
+o	Resolved all issues before delivering the project to TKC
+o	Able to click "Add task" repeatedly without uploading a file.
+o	Fixed issue where the Node is displayed on the web page without selecting Lv1.
+o	Unable to call the API when creating a user with privileges other than Admin, especially the API for Desktop Management.
+o	api/AdminMicrosoftWindowsDeployment/NodeMicrosoftWindows: A node is being registered even though it already contains         data
+o	Uninstalling TKC does not clear the log.
+o	Analytic Report: Removed reports unrelated to the standard when no additional licenses are added.
+o	In the Desktop Management Tool, unable to click "Add task" when selecting type as Uninstall, Command, or Screen Capture.
+o	Desktop Management Log: In the Remark section, there is an overlapping "View" button.
+o	Desktop Management Log: If no message is provided for Install/Uninstall, the action will not proceed.
+o	A pop-up appears every 1-2 hours.
+ 
+### Customer Management Module 
+o	Resolved all issues before delivering the project to UIH
+o	Adjust the report format during export to improve its appearance, ensuring data accuracy, such as correct handling of decimals.
+o	Adjust the web page format to meet standards and revise the graphs to align with the data.
+
+### IP SLA Management Module 
+o	Resolved all issues before delivering the project to UIH
+o	Improve the backend data collection for IP SLA to support storing data from Accedian.
+o	Adjust the report format during export to improve its appearance, ensuring data accuracy, such as correct handling of decimals
+o	Adjust the web page format to meet standards and revise the graphs to align with the data.
+
+
+
+
+
+---
+---
+
 
 # Release notes for NetkaView Network Manager X 2.6.0 ![01_newlogo_image001](https://github.com/netkasystem/NNMXv2/assets/23395399/635c8b11-07a2-4af8-ac2b-f1a12455490d)
 ---
